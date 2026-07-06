@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tests
+.pytest_cache/
+.coverage
+
+# macOS
+.DS_Store
+Icon?
+
+# Sorties runtime du moteur (conserver les dossiers via .gitkeep)
+knowledge/*.json
+knowledge/*.jsonl
+reports/*.json
+reports/*.md
+logs/*.log

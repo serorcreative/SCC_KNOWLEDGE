@@ -1,0 +1,21 @@
+{
+  "$schema_note": "Configuration du moteur de connaissance SCC. Chemins relatifs = relatifs à 04_KNOWLEDGE.",
+  "paths": {
+    "knowledge_path": "knowledge/knowledge.json",
+    "graph_path": "knowledge/graph.json",
+    "history_path": "knowledge/history.jsonl",
+    "reports_dir": "reports",
+    "logs_dir": "logs"
+  },
+  "input_status_filter": "validated",
+  "canonicalize_policy": "highest_confidence",
+  "semantic_shared_tag_min": 1,
+  "taxonomy_overrides": {},
+  "ignored_tags": [
+    "prompt", "doctrine", "decision", "task", "idea", "workflow", "lesson",
+    "project_knowledge", "concept",
+    "chatgpt", "claude", "github", "supabase", "base44", "documents", "pdf",
+    "markdown", "images", "audio", "video", "emails"
+  ],
+  "extra": {}
+}
